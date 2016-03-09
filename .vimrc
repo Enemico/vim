@@ -3,7 +3,7 @@ set fileencoding=utf-8
 set number
 execute pathogen#infect()
 syntax on
-filetype plugin indent on
+" filetype plugin indent on
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -16,10 +16,9 @@ let g:syntastic_check_on_wq = 0
 
 set smartindent
 set autoindent
-filetype plugin indent on
 
 :helptags ~/.vim/bundle/vim_cf3/doc/
-" enable vim_cf3 plugin abbreviations
+"enable vim_cf3 plugin abbreviations
 let g:EnableCFE3KeywordAbbreviations=1
 
 fun! Getchar()

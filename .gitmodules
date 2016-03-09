@@ -16,7 +16,7 @@
 [submodule ".vim/bundle/vim-sensible"]
 	path = .vim/bundle/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
-[submodule ".vim/bundle/vim_cf3"]
-	path = .vim/bundle/vim_cf3
+[submodule ".vim/bundle/vim_cfengine"]
+	path = .vim/bundle/vim_cfengine
 	url = git://github.com/neilhwatson/vim_cf3.git
 

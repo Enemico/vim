@@ -19,4 +19,6 @@
 [submodule ".vim/bundle/vim_cfengine"]
 	path = .vim/bundle/vim_cfengine
 	url = git://github.com/neilhwatson/vim_cf3.git
-
+[submodule ".vim/bundle/vim-ansible-yaml"]
+	path = .vim/bundle/vim-ansible-yaml
+	url = git://github.com/chase/vim-ansible-yaml.git

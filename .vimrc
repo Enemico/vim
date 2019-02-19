@@ -18,10 +18,6 @@ let g:syntastic_check_on_wq = 0
 set smartindent
 set autoindent
 
-:helptags ~/.vim/bundle/vim_cf3/doc/
-"enable vim_cf3 plugin abbreviations
-let g:EnableCFE3KeywordAbbreviations=1
-
 fun! Getchar()
         let c = getchar()
         if c != 0
